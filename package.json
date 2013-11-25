@@ -3,7 +3,7 @@
   "title": "jQuery User Generated PayPal Order Form",
   "description": "A quick paypal form item manipulator. The end user can build their order by adding and changing items.",
   "version": "0.0.1",
-  "homepage": "github.com/",
+  "homepage": "https://github.com/JoeKendall/userGeneratedPayPalForm",
   "author": {
     "name": "Joe Kendall",
     "url": "http://joekendall.co.uk"
