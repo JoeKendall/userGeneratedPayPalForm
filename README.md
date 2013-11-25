@@ -5,6 +5,8 @@ This is a little jQuery Plugin, weighing in a 1KB that allows the user to build 
 
 This is useful for booking forms, especially those with time slots.
 
+[Demo](http://jsfiddle.net/joekendall/EWnLZ/)
+
 It will need a little bit of tweaking to suit your absolute needs, but this should give you a good start. :)
 
 Simply download the minified js file: ``js/payPalForm.min.js``
