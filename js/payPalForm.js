@@ -1,6 +1,6 @@
 /**
 jQuery User Generated PayPal Order Form - 0.0.1
-github.com/
+https://github.com/JoeKendall/userGeneratedPayPalForm
 Copyright (c) 2013 Joe Kendall
 License: MIT
 */
