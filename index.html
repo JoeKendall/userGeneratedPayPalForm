@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>jQuery User Generated PayPal Order Form</title>
+	</head>
+	<body>
+		<form class="formContainer" name="_xclick" target="_blank" action="https://www.paypal.com/us/cgi-bin/webscr" method="post">
+		    <input type="hidden" name="cmd" value="_cart" />
+		    <input type="hidden" name="upload" value="1">
+		    <input type="hidden" name="business" value="paypal@address.com" />
+		    <input type="hidden" name="currency_code" value="GBP" />
+		    <input type="hidden" name="return" value="http://domain.co.uk/success.html" />
+		    
+		    <input name="first_name" placeholder="First Name" type="text" class="seven columns">
+		    <input name="last_name" placeholder="Last Name" type="text" class="seven columns">
+			<p class="itemRow">
+			    <select class="itemAmount" name="amount_1">
+			    	<option value="5">Item Amount 1</option>
+			    	<option value="10">Item Amount 2</option>
+			    </select>
+			    <input name="item_name_1" placeholder="Item Name, or define with hidden input." type="text" class="itemName">
+			    <select class="itemQuantity" name="quantity_1">
+			    	<option value="1">1 Hour</option>
+			    	<option value="2">2 Hours</option>
+			    	<option value="3">3 Hours</option>
+			    	<option value="4">4 Hours</option>
+			    	<option value="5">5 Hours</option>
+			    	<option value="6">6 Hours</option>
+			    	<option value="7">7 Hours</option>
+			    	<option value="8">8 Hours</option>
+			    </select>
+			    <input name="item_number_1" placeholder="Item Number, or define with hidden input." type="text" class="itemNumber">
+			    <span class="addSlot">Add Item</span>
+			</p>
+			<p class="total">
+			    Total: 
+			    <span id="totalInt">&pound;5</span>
+			</p>
+		    			
+		    <input TYPE="hidden" id="returnValue" NAME="return" value="">
+		    <input TYPE="hidden" id="cancel_return" NAME="cancel_return" value="http://domain.co.uk/cancel.html">
+		    
+			<input type="submit" value="Buy">			   			    
+		</form>
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-2.0.3.min.js"><\/script>')</script>
+		<script type="text/javascript" src="js/payPalForm.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.formContainer').payPalForm();
+			})
+		</script>
+	</body>
+</html>

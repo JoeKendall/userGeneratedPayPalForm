@@ -1,0 +1,22 @@
+{
+  "name": "PayPalForm",
+  "title": "jQuery User Generated PayPal Order Form",
+  "description": "A quick paypal form item manipulator. The end user can build their order by adding and changing items.",
+  "version": "0.0.1",
+  "homepage": "github.com/",
+  "author": {
+    "name": "Joe Kendall",
+    "url": "http://joekendall.co.uk"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.3"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.1"
+  }
+}
