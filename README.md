@@ -3,7 +3,9 @@ jQuery User Generated PayPal Order Form
 
 This is a little jQuery Plugin, weighing in a 1KB that allows the user to build their own PayPal order form. 
 
-This is useful for booking forms, especially those with time slots.
+I don't write JavaScript, even less jQuery so there is probably quite a few areas where you could implement something better. Please let me know, or fork this repo. 
+
+**This is useful for booking forms, especially those with time slots.**
 
 [Demo](http://jsfiddle.net/joekendall/EWnLZ/1/)
 
