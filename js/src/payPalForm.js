@@ -53,7 +53,7 @@
             }
             
             function duplicateElement(file){
-              var newElem = file.clone().attr('class','timeSlotChoosingDupe clearfix');
+              var newElem = file.clone().attr('class','itemRowDupe');
               newElem.find('.addSlot')
                 .addClass('removeSlot').removeClass('addSlot')
                 .html('Remove Item');

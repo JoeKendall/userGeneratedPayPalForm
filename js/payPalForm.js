@@ -4,8 +4,6 @@ github.com/
 Copyright (c) 2013 Joe Kendall
 License: MIT
 */
-//Joe Kendall 2013 : jQuery User Generated PayPal Order Form
-/*jshint -W065 */
 (function ($) {
     $.fn.payPalForm = function() {
         //get passed parent class, usually form class
@@ -60,7 +58,7 @@ License: MIT
             }
             
             function duplicateElement(file){
-              var newElem = file.clone().attr('class','timeSlotChoosingDupe clearfix');
+              var newElem = file.clone().attr('class','itemRowDupe');
               newElem.find('.addSlot')
                 .addClass('removeSlot').removeClass('addSlot')
                 .html('Remove Item');
